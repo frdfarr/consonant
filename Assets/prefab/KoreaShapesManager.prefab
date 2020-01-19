@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2217244661954662414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2217244661954920678}
+  - component: {fileID: 2217244661945065126}
+  m_Layer: 5
+  m_Name: KoreaShapesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2217244661954920678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2217244661954662414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2217244661945065126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2217244661954662414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a276494aba161438d5def8e1b5ecbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shapes:
+  - showContents: 1
+    gamePrefab: {fileID: 7382232060930766944, guid: 300fe9969be7aa947a6fe1f9b265eb7b,
+      type: 3}
+    picture: {fileID: 0}
+  - showContents: 1
+    gamePrefab: {fileID: 6816602786122904648, guid: 69f19837776c7dc46b9b3c354bc78c2c,
+      type: 3}
+    picture: {fileID: 0}
+  - showContents: 1
+    gamePrefab: {fileID: 5338786362442623336, guid: 538f091a562dad24faa084044f831329,
+      type: 3}
+    picture: {fileID: 0}
+  - showContents: 1
+    gamePrefab: {fileID: 83404371163112301, guid: 310aa80f17916ba4486e8284e1b37436,
+      type: 3}
+    picture: {fileID: 0}
+  - showContents: 1
+    gamePrefab: {fileID: 6116122368822542571, guid: 8d170067ccb38234599c2df90cf69e33,
+      type: 3}
+    picture: {fileID: 0}
+  shapeLabel: Korea
+  shapePrefix: Korea
+  sceneName: KoreaAlbum
+  lastSelectedGroup: 0
